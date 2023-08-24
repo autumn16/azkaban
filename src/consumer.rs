@@ -192,7 +192,7 @@ where
                 let consume_data = TopicWorker {
                     job_id: topic_id,
                     typ: TopicTyp::READ,
-                    request: request,
+                    request,
                     response: BaseResponseMsg {
                         msg: "Ok".to_string(),
                         detail: "Get data from topic OK!".to_string(),
